@@ -1,0 +1,1239 @@
+{
+	"ID": "20230311154101-i1gdj02",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f9d1-200d-1f4bb",
+		"id": "20230311154101-i1gdj02",
+		"title": "学习记录",
+		"updated": "20230324172651"
+	},
+	"Children": [
+		{
+			"ID": "20230311154107-30nghlo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20230311154107-30nghlo",
+				"updated": "20230318171503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "环境搭建"
+				}
+			]
+		},
+		{
+			"ID": "20230318175951-ouqnaf6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20230318175951-ouqnaf6",
+				"style": "color: var(--b3-card-success-color);background-color: var(--b3-card-success-background);",
+				"updated": "20230319155414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工具使用"
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-0gznhlk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230324171609-0gznhlk",
+				"updated": "20230324171609"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Git"
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-z9gnlpu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230324171609-z9gnlpu",
+				"updated": "20230324172651"
+			},
+			"Children": [
+				{
+					"ID": "20230324171609-fbntjuz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230324171609-fbntjuz",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-8x43ggt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-8x43ggt",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下载github代码，private仓库需要SSH密钥或者token"
+								}
+							]
+						},
+						{
+							"ID": "20230324171609-0wngvo7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230324171609-0wngvo7",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git clone \u003c代码-\u003ehttps链接\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230324172612-plkvbzo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230324172612-plkvbzo",
+						"updated": "20230324172651"
+					},
+					"Children": [
+						{
+							"ID": "20230324172612-d3zgury",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324172612-d3zgury",
+								"updated": "20230324172627"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加远程仓库"
+								}
+							]
+						},
+						{
+							"ID": "20230324172628-8ltt4iv",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230324172628-8ltt4iv",
+								"updated": "20230324172651"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# 增加远程仓库\ngit remote add origin git@github.com:wbdeng/notes.git\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230324171609-mhbxmez",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230324171609-mhbxmez",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-1vnj8aj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-1vnj8aj",
+								"updated": "20230324172619"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "推送到github：git push origin"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230324171609-zc5xmm4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20230324171609-zc5xmm4",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-74wby5e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-74wby5e",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "‍"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-pjbzzv7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230324171609-pjbzzv7",
+				"updated": "20230324171609"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WSL"
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-tl1pkjo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230324171609-tl1pkjo",
+				"updated": "20230324171609"
+			},
+			"Children": [
+				{
+					"ID": "20230324171609-7i6btxq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230324171609-7i6btxq",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-n35gbmp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-n35gbmp",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "启动"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：启用wsl、启用虚拟机、设置 WSL 2 为默认值"
+								}
+							]
+						},
+						{
+							"ID": "20230324171609-dr2bfk2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230324171609-dr2bfk2",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart \u0026\u0026\ndism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart \u0026\u0026\nwsl --set-default-version 2\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230324171609-akjjykz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230324171609-akjjykz",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-2owc9li",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-2owc9li",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "VScode无法保存文件"
+								}
+							]
+						},
+						{
+							"ID": "20230324171609-q6nw9y1",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230324171609-q6nw9y1",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo chown -R \u003cuser name\u003e /home/\u003cdir name\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230324171609-pa6yq78",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230324171609-pa6yq78",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-79oqsgl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-79oqsgl",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "‍"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-0h2g6bb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230324171609-0h2g6bb",
+				"updated": "20230324171609"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Shell"
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-rzm0qm2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230324171609-rzm0qm2",
+				"updated": "20230324171609"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "apt"
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-001om1w",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230324171609-001om1w",
+				"updated": "20230324171609"
+			},
+			"Children": [
+				{
+					"ID": "20230324171609-2sujbtp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230324171609-2sujbtp",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-bnwuuxs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-bnwuuxs",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "apt-get某个包升降级"
+								}
+							]
+						},
+						{
+							"ID": "20230324171609-q8jiq9h",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230324171609-q8jiq9h",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo apt-get install \u003cpackage-name\u003e=\u003cpackage-version-number\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230324171609-hwsu293",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230324171609-hwsu293",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-xewe2zj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-xewe2zj",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "apt-search"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-7hm8zc7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230324171609-7hm8zc7",
+				"updated": "20230324171609"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "‍"
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-aql0orr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230324171609-aql0orr",
+				"updated": "20230324171609"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "QEMU"
+				}
+			]
+		},
+		{
+			"ID": "20230324171609-84lqwz2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230324171609-84lqwz2",
+				"updated": "20230324171609"
+			},
+			"Children": [
+				{
+					"ID": "20230324171609-aat10y8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230324171609-aat10y8",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-n9cq4ql",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-n9cq4ql",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "help信息"
+								}
+							]
+						},
+						{
+							"ID": "20230324171609-uc2fa4g",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230324171609-uc2fa4g",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "./qemu-system-aarch64 -M help      # 查看支持的machine\n./qemu-system-aarch64 -cpu help    # 查看支持的CPU\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230324171609-tv2rek5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230324171609-tv2rek5",
+						"updated": "20230324171609"
+					},
+					"Children": [
+						{
+							"ID": "20230324171609-2eh02af",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171609-2eh02af",
+								"updated": "20230324171609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "‍"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230318175930-xgbxsw9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230318175930-xgbxsw9",
+				"updated": "20230318175931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Git"
+				}
+			]
+		},
+		{
+			"ID": "20230318180006-kk4q3y2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230318180006-kk4q3y2",
+				"updated": "20230318195819"
+			},
+			"Children": [
+				{
+					"ID": "20230318180007-k809eww",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230318180007-k809eww",
+						"updated": "20230318195819"
+					},
+					"Children": [
+						{
+							"ID": "20230318180007-mmb2szm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230318180007-mmb2szm",
+								"updated": "20230318195833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下载github代码，private仓库需要SSH密钥或者token\n"
+								}
+							]
+						},
+						{
+							"ID": "20230318180014-vjv4nw4",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230318180014-vjv4nw4",
+								"updated": "20230318195819"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dW5kZWZpbmVk"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git clone \u003c代码-\u003ehttps链接\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230318180012-smsr8e6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230318180012-smsr8e6",
+						"updated": "20230319172026"
+					},
+					"Children": [
+						{
+							"ID": "20230318180012-wgj4jhf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230318180012-wgj4jhf",
+								"updated": "20230319172026"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "推送：git push origin"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230318195841-t99cdpj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230318195841-t99cdpj"
+					},
+					"Children": [
+						{
+							"ID": "20230318195841-6nrusb5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230318195841-6nrusb5"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230318191926-9c6tuwd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230318191926-9c6tuwd",
+				"updated": "20230318191927"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WSL"
+				}
+			]
+		},
+		{
+			"ID": "20230318191932-l3okfq1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230318191932-l3okfq1",
+				"updated": "20230319155252"
+			},
+			"Children": [
+				{
+					"ID": "20230318191933-gyhy9al",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230318191933-gyhy9al",
+						"updated": "20230319155252"
+					},
+					"Children": [
+						{
+							"ID": "20230318191933-8932kb0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230318191933-8932kb0",
+								"updated": "20230318194644"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "启动"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：启用wsl、启用虚拟机、设置 WSL 2 为默认值"
+								}
+							]
+						},
+						{
+							"ID": "20230318191936-f34fvct",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230318191936-f34fvct",
+								"updated": "20230319155252"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart \u0026\u0026\ndism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart \u0026\u0026\nwsl --set-default-version 2\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230318191935-3ymwn51",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230318191935-3ymwn51",
+						"updated": "20230318193449"
+					},
+					"Children": [
+						{
+							"ID": "20230318191935-k3yruxi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230318191935-k3yruxi",
+								"updated": "20230318193416"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "VScode无法保存文件"
+								}
+							]
+						},
+						{
+							"ID": "20230318193417-rjuxsnq",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230318193417-rjuxsnq",
+								"updated": "20230318193449"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo chown -R \u003cuser name\u003e /home/\u003cdir name\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230318193407-i0mgoh6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20230318193407-i0mgoh6"
+					},
+					"Children": [
+						{
+							"ID": "20230318193407-6so08py",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230318193407-6so08py"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230318175222-mw3h8o4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230318175222-mw3h8o4",
+				"updated": "20230319171939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Shell"
+				}
+			]
+		},
+		{
+			"ID": "20230319171942-9hd431m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230319171942-9hd431m",
+				"updated": "20230320210711"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "apt"
+				}
+			]
+		},
+		{
+			"ID": "20230319171950-28hn0c7",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230319171950-28hn0c7",
+				"updated": "20230319172254"
+			},
+			"Children": [
+				{
+					"ID": "20230319171953-fuzxwtj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230319171953-fuzxwtj",
+						"updated": "20230319172254"
+					},
+					"Children": [
+						{
+							"ID": "20230319171953-lufui32",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230319171953-lufui32",
+								"updated": "20230320210715"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "apt-get某个包升降级"
+								}
+							]
+						},
+						{
+							"ID": "20230319172252-4zbkae7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230319172252-4zbkae7",
+								"updated": "20230319172254"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo apt-get install \u003cpackage-name\u003e=\u003cpackage-version-number\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230319172000-ipfkp9p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230319172000-ipfkp9p"
+					},
+					"Children": [
+						{
+							"ID": "20230319172000-vkedkuy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230319172000-vkedkuy",
+								"updated": "20230320210727"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "apt-search"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230320210729-xbsdisy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230320210729-xbsdisy"
+			}
+		},
+		{
+			"ID": "20230320212225-20zd3sh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230320212225-20zd3sh",
+				"updated": "20230320212228"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "QEMU"
+				}
+			]
+		},
+		{
+			"ID": "20230320212229-bckrwlx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230320212229-bckrwlx",
+				"updated": "20230320212245"
+			},
+			"Children": [
+				{
+					"ID": "20230320212231-4rn8id7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230320212231-4rn8id7",
+						"updated": "20230320212245"
+					},
+					"Children": [
+						{
+							"ID": "20230320212231-bvplp5e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230320212231-bvplp5e",
+								"updated": "20230320212242"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "help信息"
+								}
+							]
+						},
+						{
+							"ID": "20230320212244-umk2ter",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230320212244-umk2ter",
+								"updated": "20230320212245"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "c2hlbGw="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "./qemu-system-aarch64 -M help      # 查看支持的machine\n./qemu-system-aarch64 -cpu help    # 查看支持的CPU\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230320212242-kdc1a67",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230320212242-kdc1a67"
+					},
+					"Children": [
+						{
+							"ID": "20230320212242-pdj0r0x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230320212242-pdj0r0x"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230311154101-4a8l99s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230311154101-4a8l99s",
+				"updated": "20230311154101"
+			}
+		}
+	]
+}

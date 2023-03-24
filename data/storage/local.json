@@ -1,0 +1,21 @@
+{
+  "local-bazaar": {
+    "icon": "0",
+    "template": "2",
+    "theme": "2",
+    "widget": "2"
+  },
+  "local-codelang": "shell",
+  "local-searchekeys": {
+    "col": "",
+    "colTab": "",
+    "keys": [
+      "#todo balabala#"
+    ],
+    "layout": 0,
+    "layoutTab": 0,
+    "replaceKeys": [],
+    "row": "",
+    "rowTab": ""
+  }
+}

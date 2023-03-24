@@ -1,0 +1,542 @@
+{
+	"ID": "20230311154109-m4r8a55",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f4d6",
+		"id": "20230311154109-m4r8a55",
+		"title": "资料整理",
+		"updated": "20230324171546"
+	},
+	"Children": [
+		{
+			"ID": "20230311154117-e0dt9ur",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230311154117-e0dt9ur",
+				"updated": "20230324171541"
+			}
+		},
+		{
+			"ID": "20230324171537-qhgcq37",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20230324171537-qhgcq37",
+				"updated": "20230324171546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "github"
+				}
+			]
+		},
+		{
+			"ID": "20230324171537-8uwquh5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230324171537-8uwquh5",
+				"updated": "20230324171537"
+			},
+			"Children": [
+				{
+					"ID": "20230324171537-51q3kze",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230324171537-51q3kze",
+						"updated": "20230324171537"
+					},
+					"Children": [
+						{
+							"ID": "20230324171537-6si0sog",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171537-6si0sog",
+								"updated": "20230324171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "repo token"
+								}
+							]
+						},
+						{
+							"ID": "20230324171537-of9mjqa",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20230324171537-of9mjqa",
+								"updated": "20230324171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dW5kZWZpbmVk"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "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\nhttps://newToken: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@github.com/wbdeng/notes.git\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230324171537-w12txgg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230324171537-w12txgg",
+						"updated": "20230324171537"
+					},
+					"Children": [
+						{
+							"ID": "20230324171537-6qa0lrk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171537-6qa0lrk",
+								"updated": "20230324171537"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230324171537-eahkdo0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230324171537-eahkdo0",
+				"updated": "20230324171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "QEMU"
+				}
+			]
+		},
+		{
+			"ID": "20230324171537-ccfidg8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230324171537-ccfidg8",
+				"updated": "20230324171537"
+			},
+			"Children": [
+				{
+					"ID": "20230324171537-zxd98dj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230324171537-zxd98dj",
+						"updated": "20230324171537"
+					},
+					"Children": [
+						{
+							"ID": "20230324171537-juejan8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171537-juejan8",
+								"updated": "20230324171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://blog.csdn.net/thisinnocence/article/details/127931774?spm=1001.2101.3001.6650.1\u0026utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EAD_ESQUERY%7Eyljh-1-127931774-blog-115705374.pc_relevant_landingrelevant\u0026depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EAD_ESQUERY%7Eyljh-1-127931774-blog-115705374.pc_relevant_landingrelevant\u0026utm_relevant_index=2",
+									"TextMarkTextContent": "QEMU调试ARM64 Linux内核v6.0.9_linux 编译内核"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230324171537-vngwhqr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230324171537-vngwhqr",
+				"updated": "20230324171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "gcc"
+				}
+			]
+		},
+		{
+			"ID": "20230324171537-ul7z4ic",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230324171537-ul7z4ic",
+				"updated": "20230324171537"
+			},
+			"Children": [
+				{
+					"ID": "20230324171537-87i68wu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230324171537-87i68wu",
+						"updated": "20230324171537"
+					},
+					"Children": [
+						{
+							"ID": "20230324171537-osebqhh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171537-osebqhh",
+								"updated": "20230324171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://blog.csdn.net/qq_41054313/article/details/119453611?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163767069616780269823141%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D\u0026request_id=163767069616780269823141\u0026biz_id=0\u0026utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-3-119453611.first_rank_v2_pc_rank_v29\u0026utm_term=gcc%E6%9C%80%E6%96%B0%E7%89%88%E5%AE%89%E8%A3%85\u0026spm=1018.2226.3001.4187",
+									"TextMarkTextContent": "Linux升级gcc到最新版本gcc-11.2.0"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230324171537-vncsyen",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230324171537-vncsyen",
+				"updated": "20230324171537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "kernel"
+				}
+			]
+		},
+		{
+			"ID": "20230324171537-wjjogmq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230324171537-wjjogmq",
+				"updated": "20230324171537"
+			},
+			"Children": [
+				{
+					"ID": "20230324171537-ksumecg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230324171537-ksumecg",
+						"updated": "20230324171537"
+					},
+					"Children": [
+						{
+							"ID": "20230324171537-4a66jnv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171537-4a66jnv",
+								"updated": "20230324171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "github链接："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/torvalds/linux.git",
+									"TextMarkTextContent": "https://github.com/torvalds/linux.git"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230324171537-mm54a88",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230324171537-mm54a88",
+						"updated": "20230324171537"
+					},
+					"Children": [
+						{
+							"ID": "20230324171537-876f88b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230324171537-876f88b",
+								"updated": "20230324171537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "123"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230319163904-p7opho2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230319163904-p7opho2",
+				"updated": "20230319211509"
+			},
+			"Children": [
+				{
+					"ID": "20230319163917-c0tsknw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230319163917-c0tsknw",
+						"updated": "20230319211509"
+					},
+					"Children": [
+						{
+							"ID": "20230319163917-7xj8qiu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230319163917-7xj8qiu",
+								"updated": "20230319211509"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://blog.csdn.net/thisinnocence/article/details/127931774?spm=1001.2101.3001.6650.1\u0026utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EAD_ESQUERY%7Eyljh-1-127931774-blog-115705374.pc_relevant_landingrelevant\u0026depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EAD_ESQUERY%7Eyljh-1-127931774-blog-115705374.pc_relevant_landingrelevant\u0026utm_relevant_index=2",
+									"TextMarkTextContent": "QEMU调试ARM64 Linux内核v6.0.9_linux 编译内核"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230320210956-g3gg2wl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20230320210956-g3gg2wl",
+				"updated": "20230320210959"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "gcc"
+				}
+			]
+		},
+		{
+			"ID": "20230320211000-0tfcsy6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230320211000-0tfcsy6",
+				"updated": "20230320211016"
+			},
+			"Children": [
+				{
+					"ID": "20230320211002-xwn4toi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230320211002-xwn4toi",
+						"updated": "20230320211016"
+					},
+					"Children": [
+						{
+							"ID": "20230320211002-o3nlzyp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230320211002-o3nlzyp",
+								"updated": "20230320211016"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://blog.csdn.net/qq_41054313/article/details/119453611?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163767069616780269823141%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D\u0026request_id=163767069616780269823141\u0026biz_id=0\u0026utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-3-119453611.first_rank_v2_pc_rank_v29\u0026utm_term=gcc%E6%9C%80%E6%96%B0%E7%89%88%E5%AE%89%E8%A3%85\u0026spm=1018.2226.3001.4187",
+									"TextMarkTextContent": "Linux升级gcc到最新版本gcc-11.2.0"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230311155406-4x7p4pz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20230311155406-4x7p4pz",
+				"updated": "20230319164442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "kernel"
+				}
+			]
+		},
+		{
+			"ID": "20230319164443-wo3bgn4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230319164443-wo3bgn4",
+				"updated": "20230320172439"
+			},
+			"Children": [
+				{
+					"ID": "20230319164445-f7n0rh1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230319164445-f7n0rh1",
+						"updated": "20230320172439"
+					},
+					"Children": [
+						{
+							"ID": "20230319164445-26smccw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230319164445-26smccw",
+								"updated": "20230320172439"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "github链接："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://github.com/torvalds/linux.git",
+									"TextMarkTextContent": "https://github.com/torvalds/linux.git"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230319164459-60d3pc5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20230319164459-60d3pc5"
+					},
+					"Children": [
+						{
+							"ID": "20230319164459-pzk8pks",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230319164459-pzk8pks"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230319164458-a8wktcc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230319164458-a8wktcc"
+			}
+		}
+	]
+}

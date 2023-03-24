@@ -1,0 +1,21 @@
+{
+	"ID": "20230311154050-p84f0fy",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "2744",
+		"id": "20230311154050-p84f0fy",
+		"title": "tmp",
+		"title-img": "background-image:linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%)",
+		"updated": "20230324171626"
+	},
+	"Children": [
+		{
+			"ID": "20230324171626-rhspd0m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230324171626-rhspd0m"
+			}
+		}
+	]
+}

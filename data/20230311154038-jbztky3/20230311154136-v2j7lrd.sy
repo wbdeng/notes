@@ -1,0 +1,29 @@
+{
+	"ID": "20230311154136-v2j7lrd",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f449",
+		"id": "20230311154136-v2j7lrd",
+		"title": "todo list",
+		"title-img": "background:radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;background-color: slategray;background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;",
+		"updated": "20230311154142"
+	},
+	"Children": [
+		{
+			"ID": "20230311154142-kzt1uts",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230311154142-kzt1uts"
+			}
+		},
+		{
+			"ID": "20230311154136-fi4roii",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230311154136-fi4roii",
+				"updated": "20230311154136"
+			}
+		}
+	]
+}
